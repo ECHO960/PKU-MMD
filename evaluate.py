@@ -12,9 +12,9 @@ import os
 import numpy
 import matplotlib.pyplot as plt
 
-source_folder = '/home/lch/PKU-MMD/result/detc/'
+source_folder = '/home/lch/PKU-3D/result/detc/'
 ground_folder = '/mnt/hdd/PKUMMD/test_label_0330/'
-fig_folder = '/home/lch/PKU-MMD/src/fig/'
+fig_folder = '/home/lch/PKU-3D/src/fig/'
 theta = 0.5 #overlap ratio
 number_label = 52
 
@@ -67,15 +67,22 @@ def ap(lst, ratio, total):
 	score = 0;
 	number = len(lst)*1.0
 	old_precision = 0
+	if (total == 0): return 0
+	old_recall = min(pos/total,1)
+
 	for x in lst:
 		number = number - 1;
 		if (x[4] < ratio): continue
 		pos = pos - 1;
 		if (number == 0): break
 		precision = pos/number
+		recall = min(pos/total,1)
 		if precision>old_precision: 
 			old_precision = precision
-		score += old_precision/total
+		score += old_precision*(old_recall-recall)
+		old_recall = recall
+
+	score += old_precision*old_recall;
 	return score
 
 # calc_ovlp
