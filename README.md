@@ -3,5 +3,4 @@ PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human ac
 
 # News
 2017.4.13 Evaluation code updated.
-
 2017.4.12 Evaluation code released.
