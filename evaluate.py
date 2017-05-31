@@ -41,7 +41,7 @@ def match(lst, ratio, ground):
 		l_g, s_g, e_g, c_g, v_g = ground
 		if (int(l_p) != int(l_g)): return 0
 		if (v_p != v_g): return 0
-		return (min(e_p, e_g)-max(l_p, l_g))/(max(e_p, e_g)-min(l_p, l_g))
+		return (min(e_p, e_g)-max(s_p, s_g))/(max(e_p, e_g)-min(s_p, s_g))
 
 	cos_map = [-1 for x in xrange(len(lst))]
 	count_map = [0 for x in xrange(len(ground))]
