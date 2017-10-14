@@ -62,9 +62,20 @@ Infrared Files:
 
 ## Metrics
 
-For the detection task, there is a basic criterion to evaluate the overlapping ratio between the predicted action interval $I$ and the ground truth interval $I^{*}$ with a threshold $\theta$. The detection interval is correct when \begin{equation} \frac{|I \cap I^{*}|}{|I \cup I^{*}|} > \theta. \end{equation} where $I \cap I^{*}$ denotes the intersection of the predicted and ground truth intervals and $I \cup I^{*}$ denotes their union. So, with $\theta$, the precision $p(\theta)$ and recall $r(\theta)$ can be calculated.
+For the detection task, there is a basic criterion to evaluate the overlapping ratio between the predicted action interval $I$ and the ground truth interval $I^{*}$ with a threshold $\theta$. The detection interval is correct when
+\begin{equation} \frac{|I \cap I^{*}|}{|I \cup I^{*}|} > \theta. \end{equation} 
+where $I \cap I^{*}$ denotes the intersection of the predicted and ground truth intervals and $I \cup I^{*}$ denotes their union. So, with $\theta$, the precision $p(\theta)$ and recall $r(\theta)$ can be calculated.
 
-*   **F1-Score**: With the above criterion to determine a correction detection, the F1-score is defined as \begin{equation} \mbox{F1}(\theta)=2 \cdot \frac{p(\theta) \times r(\theta)}{p(\theta) + r(\theta)}. \end{equation}*   **Interpolated Average Precision (AP)**: With confidence changing, precision and recall values can be plotted to give a precision-recall curve. Note that $r$ is also determined by overlapping confidence $\theta$. The interpolated average precision is calculated by the arithmetic mean of the interpolated precision at each recall level. \begin{equation} \mbox{AP} = \int_{0}^{1} \max_{r' \ge r} p(r') \; \mathrm{d}r. \label{APFORM} \end{equation}
+*   **F1-Score**: With the above criterion to determine a correction detection, the F1-score is defined as 
+$$
+\mbox{F1}(\theta)=2 \cdot \frac{p(\theta) \times r(\theta)}{p(\theta) + r(\theta)}. 
+$$
+
+*  **Interpolated Average Precision (AP)**: With confidence changing, precision and recall values can be plotted to give a precision-recall curve. Note that $r$ is also determined by overlapping confidence $\theta$. The interpolated average precision is calculated by the arithmetic mean of the interpolated precision at each recall level. 
+
+$$ 
+\mbox{AP} = \int_{0}^{1} \max_{r' \ge r} p(r') \; \mathrm{d}r. \label{APFORM} 
+$$
 
 *   **Mean Average Precision of Actions (mAP$_a$)**: AP is used as the metric for evaluating the results on each activity category. The AP is averaged over all the activity categories.
 
