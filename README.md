@@ -67,9 +67,8 @@ For the detection task, there is a basic criterion to evaluate the overlapping r
 where $I \cap I^{*}$ denotes the intersection of the predicted and ground truth intervals and $I \cup I^{*}$ denotes their union. So, with $\theta$, the precision $p(\theta)$ and recall $r(\theta)$ can be calculated.
 
 *   **F1-Score**: With the above criterion to determine a correction detection, the F1-score is defined as 
-$$
-\mbox{F1}(\theta)=2 \cdot \frac{p(\theta) \times r(\theta)}{p(\theta) + r(\theta)}. 
-$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= \mbox{F1}(\theta)=2 \cdot \frac{p(\theta) \times r(\theta)}{p(\theta) + r(\theta)}" style="border:none;">
+
 
 *  **Interpolated Average Precision (AP)**: With confidence changing, precision and recall values can be plotted to give a precision-recall curve. Note that $r$ is also determined by overlapping confidence $\theta$. The interpolated average precision is calculated by the arithmetic mean of the interpolated precision at each recall level. 
 
