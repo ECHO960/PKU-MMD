@@ -77,13 +77,17 @@ For the detection task, there is a basic criterion to evaluate the overlapping r
 ## More Samples
 
 <div align=center>
+ 
 ![Teaser](Imgs/overview.png)
+
 </div>
 
 Fig.2 From top to bottom, these four rows show RGB, depth, skeleton and IR modalities, respectively.
 
 <div align=center>
+ 
 ![Teaser](Imgs/samples.png)
+
 </div>
 
 Fig.3 We collect 51 actions performed by 66 subjects, including actions for single and pairs.
