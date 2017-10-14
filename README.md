@@ -26,11 +26,10 @@ PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human ac
 
 ## Resources
 
-[**Paper**](https://arxiv.org/abs/1703.07475)*  
+**Paper**[ACM Multimedia workshop](https://arxiv.org/abs/1703.07475)*  
 
 **Data**:
       Phase #1: [Google Drive](https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ?usp=sharing)
-      Phase #2: Coming soon.*   
 
 **Code**: [Evaluation protocol](https://github.com/ECHO960/PKU-MMD)</div>
 
