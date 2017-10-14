@@ -36,11 +36,11 @@ PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human ac
 PKU-MMD is our new large-scale dataset focusing on long continuous sequences action detection and multi-modality action analysis. The dataset is captured via the Kinect v2 sensor.
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
- 
-**Phase #1** contains 1076 long video sequences in 51 action categories, performed by 66 subjects in three camera views. It contains almost 20,000 action instances and 5.4 million frames in total. Each video lasts about $3\sim4$ minutes (recording ratio set to 30 FPS) and contains approximately 20 action instances. The total scale of our dataset is 5,312,580 frames of 3,000 minutes with 21,545 temporally localized actions.
+
+**Phase #1** contains 1076 long video sequences in 51 action categories, performed by 66 subjects in three camera views. It contains almost 20,000 action instances and 5.4 million frames in total. Each video lasts about \\(3\sim4\\) minutes (recording ratio set to 30 FPS) and contains approximately 20 action instances. The total scale of our dataset is 5,312,580 frames of 3,000 minutes with 21,545 temporally localized actions.
 We choose 51 action classes in total, which are divided into two parts: 41 daily actions (drinking, waving hand, putting on the glassed, _etc._) and 10 interaction actions (hugging, shaking hands, _etc._). 66 distinct subjects are invited for our data collection. Each subjects takes part in 4 daily action videos and 2 interactive action videos.our videos only contain one part of the actions, either daily actions or interaction actions. We design 54 sequences and divide subjects into 9 groups, and each groups randomly choose 6 sequences to perform.
 
-We provide 5 categories of resources: depth maps, RGB images, skeleton joints, infrared sequences, and RGB videos.*   Depth maps are sequences of two dimensional depth values in millimeters. The resolution is 512\times424.*   Joint information consists of 3-dimensional locations of 25 major body joints for detected and tracked human bodies in the scene. We further provide the confidence of each joints point as appendix.*   RGB videos are recorded in the provided resolution of 1920\times1080.*   Infrared sequences are also collected and stored frame by frame in $512\times424$.
+We provide 5 categories of resources: depth maps, RGB images, skeleton joints, infrared sequences, and RGB videos.*   Depth maps are sequences of two dimensional depth values in millimeters. The resolution is 512\times424.*   Joint information consists of 3-dimensional locations of 25 major body joints for detected and tracked human bodies in the scene. We further provide the confidence of each joints point as appendix.*   RGB videos are recorded in the provided resolution of 1920\times1080.*   Infrared sequences are also collected and stored frame by frame in \\(512\times424\\).
 
 </script>
 
