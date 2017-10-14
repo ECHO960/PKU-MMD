@@ -24,17 +24,16 @@ PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human ac
 
 ## Resources
 
-**Paper**[ACM Multimedia workshop](https://arxiv.org/abs/1703.07475)*  
+**Paper**: [ACM Multimedia workshop](https://arxiv.org/abs/1703.07475)*  
 
-**Data**:
-      Phase #1: [Google Drive](https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ?usp=sharing)
+**Data**: Phase #1: [Google Drive](https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ?usp=sharing)
 
-**Code**: [Evaluation protocol](https://github.com/ECHO960/PKU-MMD)</div>
+**Code**: [Evaluation protocol](https://github.com/ECHO960/PKU-MMD)
 
 **Project Webpage**: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
 
 ## Dataset Description
-<div class="desp">PKU-MMD is our new large-scale dataset focusing on long continuous sequences action detection and multi-modality action analysis. The dataset is captured via the Kinect v2 sensor.
+PKU-MMD is our new large-scale dataset focusing on long continuous sequences action detection and multi-modality action analysis. The dataset is captured via the Kinect v2 sensor.
 
 **Phase #1** contains 1076 long video sequences in 51 action categories, performed by 66 subjects in three camera views. It contains almost 20,000 action instances and 5.4 million frames in total. Each video lasts about 3$\sim$4 minutes (recording ratio set to 30 FPS) and contains approximately 20 action instances. The total scale of our dataset is 5,312,580 frames of 3,000 minutes with 21,545 temporally localized actions.
 We choose 51 action classes in total, which are divided into two parts: 41 daily actions (drinking, waving hand, putting on the glassed, _etc._) and 10 interaction actions (hugging, shaking hands, _etc._). 66 distinct subjects are invited for our data collection. Each subjects takes part in 4 daily action videos and 2 interactive action videos.our videos only contain one part of the actions, either daily actions or interaction actions. We design 54 sequences and divide subjects into 9 groups, and each groups randomly choose 6 sequences to perform.
@@ -72,7 +71,7 @@ For the detection task, there is a basic criterion to evaluate the overlapping r
 
 *   **Mean Average Precision of Videos (mAP$_v$)**: AP is used as the metric for evaluating the results on each video. The AP is averaged over all the videos.
 
-**P.S.** For more information on Interpolated Average Precision, please read: [Evaluation of ranked retrieval results](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html).</div>
+**P.S.** For more information on Interpolated Average Precision, please read: [Evaluation of ranked retrieval results](https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html).
 
 
 ## More Samples
