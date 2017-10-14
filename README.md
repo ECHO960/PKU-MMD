@@ -2,7 +2,7 @@
 
 <div align=center>
  
- [Spatial and Temporal Resolution Up Conversion Team, ICST, Peking University](http://www.icst.pku.edu.cn/struct)
+ [Spatial and Temporal Resolution Up Conversion Team, ICST, Peking University](http://www.icst.pku.edu.cn/struct)</br>
 This dataset is partially funded by Microsoft Research Asia, project ID FY17-RES-THEME-013.
 
 ![Teaser](Imgs/teaser.png)
