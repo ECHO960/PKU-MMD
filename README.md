@@ -5,7 +5,7 @@
  [Spatial and Temporal Resolution Up Conversion Team, ICST, Peking University](http://www.icst.pku.edu.cn/struct)</br>
 This dataset is partially funded by Microsoft Research Asia, project ID FY17-RES-THEME-013.
 
-![Teaser](Imgs/teaser.png)</br>  
+![Teaser-w15](Imgs/teaser.png)</br>  
 Fig.1 PKU Multi-Modality Dataset is a large-scale multi-modalities action detection dataset. This dataset contains 2 phases, phases #1 contains 51 action categories, performed by 66 distinct subjects in 3 camera views.
 </div>
 
