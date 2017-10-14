@@ -21,11 +21,10 @@ Project Webpage: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
 
 This dataset is partially funded by Microsoft Research Asia, project ID FY17-RES-THEME-013.
 
-<div class="picture_wrapper" width="50%">![Teaser](Imgs/teaser.png)
+![Teaser](Imgs/teaser.png)
 
 Fig.1 PKU Multi-Modality Dataset is a large-scale multi-modalities action detection dataset. This dataset contains 2 phases, phases #1 contains 51 action categories, performed by 66 distinct subjects in 3 camera views.
 
-</div>
 
 PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human action understanding and covers a wide range of complex human activities with well annotated information. PKU-MMD contains 2 phases, for action detection tasks with increasing difficulty. Phase 1 is large-margin action detection task. Phase 2 is small-margin action detection task. Our dataset also provides multi-modality data sources, including RGB, depth, Infrared Radiation and Skeleton. We believe this large-scale dataset will benefit future researches on action detection for the community.
 
@@ -82,7 +81,7 @@ For the detection task, there is a basic criterion to evaluate the overlapping r
 
 ## More Samples
 
-<div class="picture_result">![Teaser](Imgs/overview.png)
+![Teaser](Imgs/overview.png)
 
 Fig.2 From top to bottom, these four rows show RGB, depth, skeleton and IR modalities, respectively.
 
