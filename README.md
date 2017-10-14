@@ -8,10 +8,6 @@ Dataset Link: https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VD
 
 Project Webpage: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
 
-# News
-2017.4.13 Evaluation code updated. <br/> 
-2017.4.12 Evaluation code released.
-
 # Cite
 
 ```
