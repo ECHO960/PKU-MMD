@@ -1,4 +1,7 @@
-# PKU-MMD
+# PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding
+[Spatial and Temporal Resolution Up Conversion Team, ICST, Peking University](http://www.icst.pku.edu.cn/struct)
+
+## Abstract
 PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human action understanding and covers a wide range of complex human activities with well annotated information. PKU-MMD contains 1076 long video sequences in 51 action categories, performed by 66 subjects in three camera views. It contains almost 20,000 action instances and 5.4 million frames in total. Our dataset also provides multi-modality data sources, including RGB, depth, Infrared Radiation and Skeleton. 
 
 Dataset Link: https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ
@@ -20,29 +23,10 @@ Project Webpage: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
 }
 ```
 
-<div id="main">
-
-<div class="content">
-
-<div class="title">
-
-# PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding
-
-</div>
-
-<div class="authors">
-
-<div class="author">[Spatial and Temporal Resolution Up Conversion Team, ICST, Peking University](http://www.icst.pku.edu.cn/struct)
-
 This dataset is partially funded by Microsoft Research Asia, project ID FY17-RES-THEME-013.
 
-</div>
-
-</div>
 
 * * *
-
-<div class="overview sec">
 
 <div class="picture_wrapper" width="50%">![Teaser](PKUMMD/figures/teaser.png)
 
@@ -50,19 +34,8 @@ Fig.1 PKU Multi-Modality Dataset is a large-scale multi-modalities action detect
 
 </div>
 
-</div>
-
-<div class="abstract_sec">
-
-## Abstract
-
-<div class="desp">
 
 PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human action understanding and covers a wide range of complex human activities with well annotated information. PKU-MMD contains 2 phases, for action detection tasks with increasing difficulty. Phase 1 is large-margin action detection task. Phase 2 is small-margin action detection task. Our dataset also provides multi-modality data sources, including RGB, depth, Infrared Radiation and Skeleton. We believe this large-scale dataset will benefit future researches on action detection for the community.
-
-</div>
-
-</div>
 
 * * *
 
