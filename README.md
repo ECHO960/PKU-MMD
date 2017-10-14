@@ -9,7 +9,8 @@ Project Webpage: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
 2017.4.13 Evaluation code updated. <br/> 
 2017.4.12 Evaluation code released.
 
-#cite
+# cite
+
 <cite>
 @article{liu2017pku, 
   title={PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding},
