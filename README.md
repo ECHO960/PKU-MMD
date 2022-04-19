@@ -25,9 +25,11 @@ PKU-MMD is a new large scale benchmark for continuous multi-modality 3D human ac
 ## Resources
 
 **Paper**: [ACM Multimedia workshop](https://arxiv.org/abs/1703.07475)</br>
-**Data**: [Google Drive](https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ?usp=sharing)</br>
+<!-- **Data**: [Google Drive](https://drive.google.com/drive/folders/0B20a4UzO-OyMUVpHaWdGMFY1VDQ?usp=sharing)</br> -->
 **Code**: [Evaluation protocol](https://github.com/ECHO960/PKU-MMD) </br>
-**Project Webpage**: http://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html
+**Project Webpage**: http://39.96.165.147/Projects/PKUMMD/PKU-MMD.html 
+
+
 
 ## Dataset Description
 PKU-MMD is our new large-scale dataset focusing on long continuous sequences action detection and multi-modality action analysis. The dataset is captured via the Kinect v2 sensor.
